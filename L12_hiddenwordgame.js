@@ -65,6 +65,9 @@ function checkGuess() {
         
         print(message)
     }
+    else if (guess.length>5){
+        ultraExtraHint = " ";
+    }
     else{
         attempts++; // attempts += 1;   // attempt = attempt + 1;
         ultraExtraHint=getCorrectLetter(guess,hiddenWord);
