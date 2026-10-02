@@ -1,5 +1,3 @@
-// write your codes here
-// write your codes here
 let guessInput;
 let guessButton;
 let attempts = 0;
