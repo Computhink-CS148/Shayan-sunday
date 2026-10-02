@@ -15,7 +15,7 @@ function setup() {
     myWordList = ["green", "black", "light", "watch", "apple", 
         "round", "short", "shirt", "cover", "power"];
     hiddenWord = random(myWordList);
-    hiddenWord = hiddenWord = 
+    hiddenWord = hiddenWord =.toUpperCase
     print("the hidden is: " + hiddenWord); // console.log
     
     createCanvas(800, 700);
