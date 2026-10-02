@@ -17,7 +17,7 @@ function setup() {
     hiddenWord = random(myWordList);
     hiddenWord = hiddenWord.toUpperCase();
     print("the hidden is: " + hiddenWord); // console.log
-    hintWord =generateHint
+    hintWord =generateHint()
     
     createCanvas(800, 700);
     background("lightgray");
