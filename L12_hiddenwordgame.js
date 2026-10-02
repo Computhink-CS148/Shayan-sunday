@@ -1,7 +1,6 @@
 let guessInput;
 let guessButton;
 let attempts = 0;
-let hintWord = "S _ _ _ _";
 
 let myWordList;
 let hiddenWord;
