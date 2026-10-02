@@ -77,5 +77,5 @@ function getCorrectLetter(inputValue,randomWord){
     for ( let aLetter of inputValue){
         
     }
-    return matchedLetter
+    return matchedLetter;
 }
