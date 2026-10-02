@@ -77,7 +77,9 @@ function getCorrectLetter(inputValue,randomWord){
     for ( let aLetter of inputValue){
         if(randomWord.includes(aLetter)){
 
-        if(!matchedLetter.includes(aLetter))
+        if(!matchedLetter.includes(aLetter)){
+
+            }
         }
     }
     return matchedLetter;
