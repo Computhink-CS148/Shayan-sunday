@@ -43,7 +43,7 @@ function draw() {
     text("Hints: " + hintWord,      width/2, height/2-40);
 }
 function generateHint(aWord){
-    let partial = "__".repeat(aWord.length-1)
+    let partial = "_ ".repeat(aWord.length-1)
     print("the partial is" + partial);
     return (aWord)[0]  + partial;
 }
