@@ -47,7 +47,7 @@ function draw() {
 }
 function generateHint(aWord){
     print("word len ="+aWord.length-1)
-    print()
+    print("the partial is")
     return (aWord)[0];
 }
 function checkGuess() {
