@@ -6,6 +6,7 @@ let hintWord = "S _ _ _ _";
 let myWordList;
 let hiddenWord;
 let message = " "
+let ultraExtraHint = " "
 
 function setup() {
     // create canvas 800,700
@@ -46,6 +47,7 @@ function draw() {
 
     textSize(28);
     text(message,width/2,height/2+150);
+    text(ultraExtraHint,width/2,height/2+150);
 }
 function generateHint(aWord){
     let partial = "_ ".repeat(aWord.length-1)
@@ -56,7 +58,8 @@ function checkGuess() {
     print("hello");
     let guess = guessInput.value();
     guess = guess.toUpperCase();
-    if (guess==hiddenWord){
+    if (guess==hiddenWord){4
+        ultraExtraHint = "";
         message = "You won!You've guessed the word."; 
         
         
@@ -64,7 +67,11 @@ function checkGuess() {
     }
     else{
         attempts++; // attempts += 1;   // attempt = attempt + 1;
+        getCorrectLetter(guess,hiddenWord);
     }
     
+    
+}
+function getCorrectLetter(inputValue,randomWord){
     
 }
