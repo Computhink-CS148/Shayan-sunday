@@ -52,7 +52,7 @@ function checkGuess() {
     print("hello");
     let guess = guessInput.value();
     if (guess==hiddenWord){
-        
+        message = ""
     }
     attempts++; // attempts += 1;   // attempt = attempt + 1;
 }
