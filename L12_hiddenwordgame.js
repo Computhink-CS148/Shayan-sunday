@@ -50,5 +50,6 @@ function generateHint(aWord){
 }
 function checkGuess() {
     print("hello");
+    let
     attempts++; // attempts += 1;   // attempt = attempt + 1;
 }
