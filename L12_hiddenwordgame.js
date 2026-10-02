@@ -45,7 +45,9 @@ function draw() {
     text("Attempts: " + attempts,   width/2, height/2-100);
     text("Hints: " + hintWord,      width/2, height/2-40);
 }
-
+function generateHint(aWord){
+    return (aWord)[0];
+}
 function checkGuess() {
     print("hello");
     attempts++; // attempts += 1;   // attempt = attempt + 1;
