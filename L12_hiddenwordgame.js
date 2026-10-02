@@ -57,7 +57,7 @@ function checkGuess() {
     let guess = guessInput.value();
     guess = guess.toUpperCase();
     if (guess==hiddenWord){
-        message = "You won!You've guessed the word.";
+        message = "You won! You've guessed the word.";
         print(message)
     }
     else{
