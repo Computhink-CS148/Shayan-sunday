@@ -82,5 +82,5 @@ function getCorrectLetter(inputValue,randomWord){
             }
         }
     }
-    return "Wrong!But found these letters"+ matchedLetter;
+    return "Wrong!But found these letters:"+ matchedLetter;
 }
