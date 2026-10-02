@@ -78,7 +78,7 @@ function getCorrectLetter(inputValue,randomWord){
         if(randomWord.includes(aLetter)){
 
         if(!matchedLetter.includes(aLetter)){
-                matchedLetter =matchedletter + " "
+                matchedLetter =matchedletter + " " + aLetter
             }
         }
     }
