@@ -4,6 +4,7 @@ let attempts = 0;
 
 let myWordList;
 let hiddenWord;
+let messa
 
 function setup() {
     // create canvas 800,700
