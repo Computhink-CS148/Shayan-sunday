@@ -74,5 +74,7 @@ function checkGuess() {
 }
 function getCorrectLetter(inputValue,randomWord){
     let matchedLetter = "";
-    for ( let aLetter of inputValue)
+    for ( let aLetter of inputValue){
+        
+    }
 }
