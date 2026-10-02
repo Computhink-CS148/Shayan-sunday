@@ -44,7 +44,7 @@ function draw() {
     text("Hints: " + hintWord,      width/2, height/2-40);
 
     textsize(28);
-    text(message,width/2,height/2+150)
+    text(message,width/2,height/2+150);
 }
 function generateHint(aWord){
     let partial = "_ ".repeat(aWord.length-1)
